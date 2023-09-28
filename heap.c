@@ -41,6 +41,6 @@ Heap* createHeap(){
   if(heap->heapArray == NULL) exit(EXIT_FAILURE);
 
   heap->size = 0;
-  heap->capac = 0;
+  heap->capac = 3;
    return heap;
 }
