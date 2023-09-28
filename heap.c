@@ -28,8 +28,8 @@ void heap_push(Heap* pq, void* data, int priority){
   if(pq == NULL) return;
 
   if(pq->size == pq->capac){
-    pq->capac *= 2;
-    pq->heapArray = (heapElem*)realloc(pq->heapArray, sizeof(heapElem) * (pq->capac+ 1));
+    pq->capac *= 2 + 1;
+    pq->heapArray = (heapElem*)realloc(pq->heapArray, sizeof(heapElem) * pq->capac);
     if(pq->heapArray == NULL) exit(EXIT_FAILURE);
   }
   heapElem newElem;
