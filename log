@@ -75,3 +75,14 @@ Thu 28 Sep 2023 05:20:42 PM UTC:
  tests:  2|2
 total_score: 20/70
 3af70e5
+Thu 28 Sep 2023 05:24:06 PM UTC: 
+ heap.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+heap.c: In function ‘heap_push’:
+heap.c:35:12: error: variable ‘newElem’ set but not used [-Werror=unused-but-set-variable]
+   35 |   heapElem newElem;
+      |            ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a8cb35e
