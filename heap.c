@@ -34,5 +34,8 @@ void heap_pop(Heap* pq){
 
 Heap* createHeap(){
   Heap* heap = (Heap*)malloc(sizeof(heapElem)*2);
+  
+  if(heap == NULL) exit(EXIT_FAILURE);
+  
    return NULL;
 }

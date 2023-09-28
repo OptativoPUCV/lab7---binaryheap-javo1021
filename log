@@ -13,3 +13,9 @@ heap.c:36:9: error: unused variable ‘heap’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 d9d19c2
+Thu 28 Sep 2023 04:29:22 PM UTC: 
+ heap.c | 3 +++
+ 1 file changed, 3 insertions(+)
+ tests:  0|4
+total_score: 0/70
+9666ef6
