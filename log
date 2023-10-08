@@ -177,3 +177,9 @@ heap.c:53:12: error: unused variable ‘raiz’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 6cfde7a
+Sun 08 Oct 2023 04:40:51 AM UTC: 
+ heap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  7|1
+total_score: 45/70
+2935942
