@@ -60,11 +60,11 @@ void heap_pop(Heap* pq){
     int hijoDere= 2*i+2;
     int mayor = i;
 
-    if(hijoIz < pq->size && pq->heapArray[hijoIz].priority > pq->heapArray[mayor].priority){
+    if(hijoIz < pq->size && pq->heapArray[hijoIz].priority < pq->heapArray[mayor].priority){
       mayor = hijoIz;
     }
   
-    if(hijoDere < pq->size && pq->heapArray[hijoDere].priority < pq->heapArray[mayor].priority){
+    if(hijoDere < pq->size && pq->heapArray[hijoDere].priority > pq->heapArray[mayor].priority){
       mayor = hijoDere;
     }
 
