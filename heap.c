@@ -79,7 +79,7 @@ void heap_pop(Heap* pq){
     }
     
   }
-  free(raiz.data);
+  
 }
 
 Heap* createHeap(){

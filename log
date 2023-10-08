@@ -166,3 +166,14 @@ Sun 08 Oct 2023 04:39:27 AM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 e59a4a6
+Sun 08 Oct 2023 04:40:05 AM UTC: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+heap.c: In function ‘heap_pop’:
+heap.c:53:12: error: unused variable ‘raiz’ [-Werror=unused-variable]
+   53 |   heapElem raiz = pq->heapArray[0];
+      |            ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+6cfde7a
