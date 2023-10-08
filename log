@@ -150,3 +150,14 @@ heap.c:53:12: error: unused variable ‘raiz’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 38fb6a0
+Sun 08 Oct 2023 04:39:15 AM UTC: 
+ heap.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:4:
+heap.c: In function ‘heap_pop’:
+heap.c:54:39: error: ‘size’ undeclared (first use in this function)
+   54 |   pq->heapArray[0] = pq->heapArray[pq-size-1];
+      |                                       ^~~~
+heap.c:54:39: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+1ba078e
