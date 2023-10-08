@@ -161,3 +161,8 @@ heap.c:54:39: error: ‘size’ undeclared (first use in this function)
 heap.c:54:39: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 1ba078e
+Sun 08 Oct 2023 04:39:27 AM UTC: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+e59a4a6
